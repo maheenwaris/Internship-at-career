@@ -1,0 +1,96 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.btn0 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0%;
+}
+.btn {
+  width: auto;
+  background-color: #0a2647;
+  color: white;
+}
+.btn:hover {
+  color: white;
+}
+.main1 {
+  background-color: #0a2647;
+  color: white;
+  height: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.a0 {
+  display: flex;
+  overflow: hidden;
+}
+.a1 {
+  padding-top: 5%;
+}
+.a2 {
+  margin-top: 2%;
+  margin-left: 35%;
+}
+.a2 p {
+  margin: 1px;
+}
+.a3 p {
+  margin: 2px;
+}
+.a4 {
+  margin-left: 36%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  width: 100%;
+}
+.tablehead th {
+  margin-bottom: 2%;
+  padding: 1%;
+}
+.tabledata td {
+  padding: 1%;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.last {
+  display: flex;
+  color: white;
+}
+.a5 {
+  background-color: #2c74b3;
+  padding: 3%;
+}
+.a6 {
+  background-color: #0a2647;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 5%;
+  padding-top: 3%;
+}
+.a6 p {
+  margin: 1px;
+}
+@media screen AND (max-width: 700px) {
+  .container {
+    font-size: small;
+  }
+}
+@media print {
+  .main {
+    background-color: #0a2647 !important;
+    -webkit-print-color-adjust: exact;
+  }
+  .a2 {
+    margin-left: 25%;
+  }
+  .a4 {
+    margin-left: 50%;
+  }
+}
